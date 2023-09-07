@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Myungkou Shin Ph.D. Candidate in Kenneth C. Griffin Department of Economics at the University of Chicago" />
+  <meta name="description" content="Myungkou Shin" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -12,12 +12,18 @@
 
   <style> 
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-    a { color: #363C3F; text-decoration: none; }
-    a:link { color: #363C3F; font-size: 18px; text-decoration: none; }
-    a:visited { color: #363C3F; text-decoration: none; }
-    a:hover { color: #884548; text-decoration: underline; }
-    a:active { color: #363C3F; text-decoration: none; }
- 
+    #container a { color: #363C3F; text-decoration: none; }
+    #container a:link { color: #363C3F; font-size: 18px; text-decoration: none; }
+    #container a:visited { color: #363C3F; text-decoration: none; }
+    #container a:hover { color: #884548; text-decoration: none; }
+    #container a:active { color: #363C3F; text-decoration: none; }
+    
+    #research a { color: #001987; font-size: 14px; text-decoration: none; }
+    #research a:link { color: #001987; font-size: 14px; text-decoration: none; }
+    #research a:visited { color: #001987; text-decoration: none; }
+    #research a:hover { color: #555; text-decoration: none; }
+    #research a:active { color: #001987; text-decoration: none; }
+    
     div.content {
         margin-left: 0px;
         padding: 1px 16px;
@@ -70,6 +76,20 @@
         float:left;
         background-color: #ffffff;
     }
+    #research {
+        margin-top:125px;
+        width:100%;
+        clear: both;
+        padding: 15px;
+        background-color: #ffffff;
+    }
+    #teaching {
+        margin-top:125px;
+        width:100%;
+        clear: both;
+        padding: 15px;
+        background-color: #ffffff;
+    }
     @media screen and ( max-width: 980px ) {
         #container {
           width: auto;
@@ -80,8 +100,6 @@
         }
         #pic {
             margin-top:30px;
-            padding-left: 0px;
-            padding-right: 0px;
             padding-bottom: 30px;
             width:auto;
         }
@@ -99,21 +117,38 @@
         font-weight:lighter;
         font-size:18px;
     }
+    .collapsible {
+      color: #000d44;
+      font-family:'Roboto Slab', serif;
+      background-color: white;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      padding: 0px;
+      width: 0px;
+      text-align: left;
+    }
+    .active, .collapsible:hover {
+      color: #000d44;
+    }
+    .content {
+      padding: 10px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
   </style>
 </head>
 
 <body leftmargin="20" topmargin="20">
-
-    
     <div id="header">
         <br>
     </div>
-
+    
     <div id="container">
-
         <p id = "myNav" style="line-height: 1">
             <br><br>
-            <b>
             <span style="font-size:32px; font-family:'Roboto Slab', serif;">M<span style="font-size:25px; font-family:'Roboto Slab', serif;">YUNGKOU</span> <span style="font-size:32px; font-family:'Roboto Slab', serif;">S</span><span style="font-size:25px; font-family:'Roboto Slab', serif;">HIN</span> <br>
             <span style="font-size:12px;"> &nbsp
                 <a href="https://myungkoushin.com" style="font-size:12px;">HOME</a> &nbsp | &nbsp 
@@ -121,7 +156,6 @@
                 <a href="https://myungkoushin.com/cv/MShin_cv.pdf" style="font-size:12px;">CV</a>
                 <br><br>
             </span>
-            </b>
         </p>
         
         <div id="pic" style="text-align:center;"> 
